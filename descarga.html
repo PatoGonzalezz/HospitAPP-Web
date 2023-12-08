@@ -37,41 +37,22 @@
 		</nav>
 	</header>
 	<br><br><br><br>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-md-10">
-				<!-- Imagen a la izquierda -->
-				<img src="images/mapa1.png" class="img-fluid" alt="Imagen">
+	<section>
+		<!-- descarga -->
+		<div style="padding-left: 10%; padding-right: 10%;">
+			<div style="background-color:#1e913a; border-radius: 10px; padding: 5%;">
+				<h2 class="text-center text-white" style="font-weight:bolder">¿Quieres descargar nuestra APP?</h2>
+				<h5 class="text-center text-white" style="font-weight: bold;">¡Puedes descargarla a continuación!</h5>
+				<br>
+				<div id="boton-movil" class="hidden m-0 row justify-content-center">
+					<button type="button" class="btn btn-success">Descargar</button>
+				</div>
+				<div id="imagen-desktop" class="hidden" style="position: relative; width: 100% ;">
+					<img src="images/Commons_QR_code.png" alt="Imagen para Desktop" class="" style="display: block;margin: auto">
+				</div>
 			</div>
-			
-			<div class="col-md-2">
-				<!-- Texto al lado derecho de la imagen -->
-				<h1 class="text-center" style="font-weight: bolder; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"
-				>¡La aplicación para buscar Hospitales Cercanos!</h1>
-			</div>
 		</div>
-	</div>
-<br><br>
-	<hr class="rounded">
-<br><br>
-	<h1 class="text-center" style="font-weight: bolder; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">¿Porque instalar nuestra aplicación?</h1>
-<br><br>
-	<div class="container">
-		<div class="mt-7 p-5 bg-success text-white rounded">
-			<h1 class="text-center">Navegación integrada</h1>
-			<p class="text-center">Algunas aplicaciones ofrecen funciones de navegación integradas que guían al usuario hasta el hospital seleccionado, lo que es especialmente útil si estás en una ubicación desconocida o en una situación estresante.</p>
-		</div>
-	</div>
-<br><br>
-	<div class="container">
-		<div class="mt-7 p-5 bg-success text-white rounded">
-			<h1 class="text-center">Localización rápida</h1>
-			<p class="text-center">En situaciones de emergencia o cuando se necesita atención médica de inmediato, contar con una aplicación que localiza hospitales cercanos puede ser vital. Proporciona una forma rápida y sencilla de identificar los centros de atención médica más cercanos, ayudando a obtener ayuda médica en el menor tiempo posible.</p>
-		</div>
-	</div>
-
-
+	</section>
 	<!-- footer-->
 	<div class="container">
 		<footer class="py-3 my-4">
@@ -87,9 +68,11 @@
 	</div>
 
 	<script src="index.js"></script>
+	<script src="detectardispositivo.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
 		crossorigin="anonymous"></script>
 
 </body>
+
 </html>
